@@ -9,7 +9,7 @@ RUN rm -rf /var/www/html/index.html
 
 WORKDIR /var/www/html
 
-COPY carvilla-v1.0 /var/www/html
+COPY todo /var/www/html
 
 EXPOSE 80
 
